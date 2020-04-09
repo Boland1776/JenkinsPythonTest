@@ -8,7 +8,7 @@ pipeline {
                 sh 'id'
                 sh 'uname -a'
                 sh 'sleep 30'
-                sh 'ifconfig -a'
+                sh 'cat /etc/hosts'
                 sh 'sleep 600'
             }
         }
