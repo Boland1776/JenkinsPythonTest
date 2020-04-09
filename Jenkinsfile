@@ -5,7 +5,8 @@ pipeline {
             steps {
                 sh 'python --version'
                 sh 'sleep 10'
-                sh 'ls -R /etc'
+                sh 'ls -R ~'
+                sh 'sleep 30'
             }
         }
     }
