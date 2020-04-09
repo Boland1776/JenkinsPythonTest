@@ -5,7 +5,8 @@ pipeline {
             steps {
                 sh 'python --version'
                 sh 'sleep 10'
-                sh 'whoami'
+                sh 'id'
+                sh 'uname -a'
                 sh 'sleep 30'
                 sh 'ifconfig -a'
                 sh 'sleep 600'
