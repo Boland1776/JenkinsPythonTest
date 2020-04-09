@@ -5,8 +5,10 @@ pipeline {
             steps {
                 sh 'python --version'
                 sh 'sleep 10'
-                sh 'ls -R ~'
+                sh 'whoami'
                 sh 'sleep 30'
+                sh 'ifconfig -a'
+                sh 'sleep 600'
             }
         }
     }
