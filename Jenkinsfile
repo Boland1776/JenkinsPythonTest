@@ -4,6 +4,8 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
+                sh 'sleep 10'
+                sh 'ls -R /etc'
             }
         }
     }
